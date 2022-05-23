@@ -1,0 +1,8 @@
+prefix=/home/fansan/Desktop/lrnros/catkin_ws/devel
+
+Name: ros_tutorials
+Description: Description of ros_tutorials
+Version: 0.0.0
+Cflags: -I/home/fansan/Desktop/lrnros/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

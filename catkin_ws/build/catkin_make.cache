@@ -1,0 +1,2 @@
+beginner_tutorials:bot1_description:foobar:gazebo_ros_demos/gazebo_tutorials:gazebo_ros_demos/rrbot_control:gazebo_ros_demos/rrbot_description:gazebo_ros_demos/rrbot_gazebo:learning_tf
+-DCATKIN_DEVEL_PREFIX=/home/fansan/Desktop/lrnros/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/fansan/Desktop/lrnros/catkin_ws/install -G Unix Makefiles

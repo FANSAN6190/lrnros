@@ -1,0 +1,2382 @@
+header: 
+  seq: 1839
+  stamp: 
+    secs: 1490150278
+    nsecs:  40781979
+  frame_id: ''
+status: 
+  - 
+    level: 0
+    name: "/GPS"
+    message: "OK"
+    hardware_id: ''
+    values: 
+      - 
+        key: "piksi_llh_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Piksi Status"
+        value: "PIKSI status OK"
+      - 
+        key: "piksi_time_diag: Frequency Status"
+        value: "Desired frequency met"
+  - 
+    level: 0
+    name: "/GPS/piksi_llh_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi lat/lon"
+    values: 
+      - 
+        key: "Events in window"
+        value: "79"
+      - 
+        key: "Events since startup"
+        value: "3999"
+      - 
+        key: "Duration of window (s)"
+        value: "50.013405"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "1.579577"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "Events in window"
+        value: "500"
+      - 
+        key: "Events since startup"
+        value: "18388"
+      - 
+        key: "Duration of window (s)"
+        value: "50.013376"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "9.997325"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Piksi Status"
+    message: "PIKSI status OK"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "io_failure_count"
+        value: "0"
+      - 
+        key: "open_failure_count"
+        value: "0"
+      - 
+        key: "Heartbeat status (0 = good)"
+        value: "0"
+      - 
+        key: "Number of satellites used in GPS RTK solution"
+        value: "8"
+      - 
+        key: "GPS RTK solution status (4 = good)"
+        value: "4"
+      - 
+        key: "GPS RTK meters north"
+        value: "12.656"
+      - 
+        key: "GPS RTK meters east"
+        value: "4.206"
+      - 
+        key: "GPS RTK height difference (m)"
+        value: "-0.032"
+      - 
+        key: "GPS RTK horizontal accuracy (m)"
+        value: "0.04"
+      - 
+        key: "GPS RTK velocity north"
+        value: "0.311"
+      - 
+        key: "GPS RTK velocity east"
+        value: "-0.608"
+      - 
+        key: "GPS RTK velocity up"
+        value: "-0.038"
+      - 
+        key: "GPS RTK velocity flags"
+        value: "1"
+      - 
+        key: "GPS RTK orientation north"
+        value: "0.000454691"
+      - 
+        key: "GPS RTK orientation east"
+        value: "-0.000888915"
+      - 
+        key: "GPS RTK orientation up"
+        value: "-5.55572e-05"
+      - 
+        key: "Number of satellites used for lat/lon"
+        value: "8"
+      - 
+        key: "GPS lat/lon solution status"
+        value: "7"
+      - 
+        key: "GPS latitude"
+        value: "37.4008"
+      - 
+        key: "GPS longitude"
+        value: "-122.108"
+      - 
+        key: "GPS altitude"
+        value: "-5.95451"
+      - 
+        key: "GPS lat/lon horizontal accuracy (m)"
+        value: "146"
+  - 
+    level: 0
+    name: "/GPS/piksi_time_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi heartbeat"
+    values: 
+      - 
+        key: "Events in window"
+        value: "50"
+      - 
+        key: "Events since startup"
+        value: "1760"
+      - 
+        key: "Duration of window (s)"
+        value: "50.097625"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "0.998051"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+---
+header: 
+  seq: 3570
+  stamp: 
+    secs: 1490150278
+    nsecs: 658491488
+  frame_id: ''
+status: 
+  - 
+    level: 0
+    name: "/GPS"
+    message: "OK"
+    hardware_id: ''
+    values: 
+      - 
+        key: "piksi_llh_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Piksi Status"
+        value: "PIKSI status OK"
+      - 
+        key: "piksi_time_diag: Frequency Status"
+        value: "Desired frequency met"
+  - 
+    level: 0
+    name: "/GPS/piksi_llh_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi lat/lon"
+    values: 
+      - 
+        key: "Events in window"
+        value: "382"
+      - 
+        key: "Events since startup"
+        value: "24208"
+      - 
+        key: "Duration of window (s)"
+        value: "50.008210"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "7.638746"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "Events in window"
+        value: "500"
+      - 
+        key: "Events since startup"
+        value: "35698"
+      - 
+        key: "Duration of window (s)"
+        value: "50.008251"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "9.998350"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Piksi Status"
+    message: "PIKSI status OK"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "io_failure_count"
+        value: "0"
+      - 
+        key: "open_failure_count"
+        value: "0"
+      - 
+        key: "Heartbeat status (0 = good)"
+        value: "0"
+      - 
+        key: "Number of satellites used in GPS RTK solution"
+        value: "8"
+      - 
+        key: "GPS RTK solution status (4 = good)"
+        value: "4"
+      - 
+        key: "GPS RTK meters north"
+        value: "15.142"
+      - 
+        key: "GPS RTK meters east"
+        value: "5.676"
+      - 
+        key: "GPS RTK height difference (m)"
+        value: "0.003"
+      - 
+        key: "GPS RTK horizontal accuracy (m)"
+        value: "0.04"
+      - 
+        key: "GPS RTK velocity north"
+        value: "0.011"
+      - 
+        key: "GPS RTK velocity east"
+        value: "0.002"
+      - 
+        key: "GPS RTK velocity up"
+        value: "-0.02"
+      - 
+        key: "GPS RTK velocity flags"
+        value: "1"
+      - 
+        key: "GPS RTK orientation north"
+        value: "0.000480079"
+      - 
+        key: "GPS RTK orientation east"
+        value: "8.72872e-05"
+      - 
+        key: "GPS RTK orientation up"
+        value: "-0.000872872"
+      - 
+        key: "Number of satellites used for lat/lon"
+        value: "8"
+      - 
+        key: "GPS lat/lon solution status"
+        value: "7"
+      - 
+        key: "GPS latitude"
+        value: "37.4009"
+      - 
+        key: "GPS longitude"
+        value: "-122.108"
+      - 
+        key: "GPS altitude"
+        value: "-5.9148"
+      - 
+        key: "GPS lat/lon horizontal accuracy (m)"
+        value: "146"
+  - 
+    level: 0
+    name: "/GPS/piksi_time_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi heartbeat"
+    values: 
+      - 
+        key: "Events in window"
+        value: "45"
+      - 
+        key: "Events since startup"
+        value: "3437"
+      - 
+        key: "Duration of window (s)"
+        value: "50.008208"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "0.899852"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/Other"
+    message: "OK"
+    hardware_id: ''
+    values: 
+      - 
+        key: "velodyne_nodelet_manager: velodyne_packets topic status"
+        value: "Desired frequency met; Timestamps are reasonable."
+  - 
+    level: 0
+    name: "/Other/velodyne_nodelet_manager: velodyne_packets topic status"
+    message: "Desired frequency met; Timestamps are reasonable."
+    hardware_id: "Velodyne HDL-32E"
+    values: 
+      - 
+        key: "Events in window"
+        value: "100"
+      - 
+        key: "Events since startup"
+        value: "32990"
+      - 
+        key: "Duration of window (s)"
+        value: "10.008743"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "9.991265"
+      - 
+        key: "Target frequency (Hz)"
+        value: "9.988950"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "8.990055"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "10.987845"
+      - 
+        key: "Earliest timestamp delay:"
+        value: "0.000313"
+      - 
+        key: "Latest timestamp delay:"
+        value: "0.000327"
+      - 
+        key: "Earliest acceptable timestamp delay:"
+        value: "-1.000000"
+      - 
+        key: "Latest acceptable timestamp delay:"
+        value: "5.000000"
+      - 
+        key: "Late diagnostic update count:"
+        value: "0"
+      - 
+        key: "Early diagnostic update count:"
+        value: "0"
+      - 
+        key: "Zero seen diagnostic update count:"
+        value: "0"
+---
+header: 
+  seq: 1840
+  stamp: 
+    secs: 1490150279
+    nsecs:  40642306
+  frame_id: ''
+status: 
+  - 
+    level: 0
+    name: "/GPS"
+    message: "OK"
+    hardware_id: ''
+    values: 
+      - 
+        key: "piksi_llh_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Piksi Status"
+        value: "PIKSI status OK"
+      - 
+        key: "piksi_time_diag: Frequency Status"
+        value: "Desired frequency met"
+  - 
+    level: 0
+    name: "/GPS/piksi_llh_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi lat/lon"
+    values: 
+      - 
+        key: "Events in window"
+        value: "78"
+      - 
+        key: "Events since startup"
+        value: "3999"
+      - 
+        key: "Duration of window (s)"
+        value: "50.013520"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "1.559578"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "Events in window"
+        value: "500"
+      - 
+        key: "Events since startup"
+        value: "18398"
+      - 
+        key: "Duration of window (s)"
+        value: "50.013511"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "9.997299"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Piksi Status"
+    message: "PIKSI status OK"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "io_failure_count"
+        value: "0"
+      - 
+        key: "open_failure_count"
+        value: "0"
+      - 
+        key: "Heartbeat status (0 = good)"
+        value: "0"
+      - 
+        key: "Number of satellites used in GPS RTK solution"
+        value: "8"
+      - 
+        key: "GPS RTK solution status (4 = good)"
+        value: "4"
+      - 
+        key: "GPS RTK meters north"
+        value: "11.678"
+      - 
+        key: "GPS RTK meters east"
+        value: "4.746"
+      - 
+        key: "GPS RTK height difference (m)"
+        value: "-0.067"
+      - 
+        key: "GPS RTK horizontal accuracy (m)"
+        value: "0.04"
+      - 
+        key: "GPS RTK velocity north"
+        value: "0.692"
+      - 
+        key: "GPS RTK velocity east"
+        value: "-1.311"
+      - 
+        key: "GPS RTK velocity up"
+        value: "-0.084"
+      - 
+        key: "GPS RTK velocity flags"
+        value: "1"
+      - 
+        key: "GPS RTK orientation north"
+        value: "0.000466055"
+      - 
+        key: "GPS RTK orientation east"
+        value: "-0.000882945"
+      - 
+        key: "GPS RTK orientation up"
+        value: "-5.65731e-05"
+      - 
+        key: "Number of satellites used for lat/lon"
+        value: "8"
+      - 
+        key: "GPS lat/lon solution status"
+        value: "7"
+      - 
+        key: "GPS latitude"
+        value: "37.4008"
+      - 
+        key: "GPS longitude"
+        value: "-122.108"
+      - 
+        key: "GPS altitude"
+        value: "-5.95451"
+      - 
+        key: "GPS lat/lon horizontal accuracy (m)"
+        value: "146"
+  - 
+    level: 0
+    name: "/GPS/piksi_time_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi heartbeat"
+    values: 
+      - 
+        key: "Events in window"
+        value: "50"
+      - 
+        key: "Events since startup"
+        value: "1761"
+      - 
+        key: "Duration of window (s)"
+        value: "50.097808"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "0.998048"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+---
+header: 
+  seq: 3571
+  stamp: 
+    secs: 1490150279
+    nsecs: 658464829
+  frame_id: ''
+status: 
+  - 
+    level: 0
+    name: "/GPS"
+    message: "OK"
+    hardware_id: ''
+    values: 
+      - 
+        key: "piksi_llh_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Piksi Status"
+        value: "PIKSI status OK"
+      - 
+        key: "piksi_time_diag: Frequency Status"
+        value: "Desired frequency met"
+  - 
+    level: 0
+    name: "/GPS/piksi_llh_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi lat/lon"
+    values: 
+      - 
+        key: "Events in window"
+        value: "381"
+      - 
+        key: "Events since startup"
+        value: "24214"
+      - 
+        key: "Duration of window (s)"
+        value: "50.008636"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "7.618684"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "Events in window"
+        value: "500"
+      - 
+        key: "Events since startup"
+        value: "35708"
+      - 
+        key: "Duration of window (s)"
+        value: "50.008324"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "9.998335"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Piksi Status"
+    message: "PIKSI status OK"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "io_failure_count"
+        value: "0"
+      - 
+        key: "open_failure_count"
+        value: "0"
+      - 
+        key: "Heartbeat status (0 = good)"
+        value: "0"
+      - 
+        key: "Number of satellites used in GPS RTK solution"
+        value: "8"
+      - 
+        key: "GPS RTK solution status (4 = good)"
+        value: "4"
+      - 
+        key: "GPS RTK meters north"
+        value: "14.994"
+      - 
+        key: "GPS RTK meters east"
+        value: "5.757"
+      - 
+        key: "GPS RTK height difference (m)"
+        value: "-0.007"
+      - 
+        key: "GPS RTK horizontal accuracy (m)"
+        value: "0.04"
+      - 
+        key: "GPS RTK velocity north"
+        value: "0.185"
+      - 
+        key: "GPS RTK velocity east"
+        value: "-0.353"
+      - 
+        key: "GPS RTK velocity up"
+        value: "-0.008"
+      - 
+        key: "GPS RTK velocity flags"
+        value: "1"
+      - 
+        key: "GPS RTK orientation north"
+        value: "0.000464101"
+      - 
+        key: "GPS RTK orientation east"
+        value: "-0.000885555"
+      - 
+        key: "GPS RTK orientation up"
+        value: "-2.00692e-05"
+      - 
+        key: "Number of satellites used for lat/lon"
+        value: "8"
+      - 
+        key: "GPS lat/lon solution status"
+        value: "7"
+      - 
+        key: "GPS latitude"
+        value: "37.4009"
+      - 
+        key: "GPS longitude"
+        value: "-122.108"
+      - 
+        key: "GPS altitude"
+        value: "-5.92422"
+      - 
+        key: "GPS lat/lon horizontal accuracy (m)"
+        value: "146"
+  - 
+    level: 0
+    name: "/GPS/piksi_time_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi heartbeat"
+    values: 
+      - 
+        key: "Events in window"
+        value: "46"
+      - 
+        key: "Events since startup"
+        value: "3438"
+      - 
+        key: "Duration of window (s)"
+        value: "50.008630"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "0.919841"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/Other"
+    message: "OK"
+    hardware_id: ''
+    values: 
+      - 
+        key: "velodyne_nodelet_manager: velodyne_packets topic status"
+        value: "Desired frequency met; Timestamps are reasonable."
+  - 
+    level: 0
+    name: "/Other/velodyne_nodelet_manager: velodyne_packets topic status"
+    message: "Desired frequency met; Timestamps are reasonable."
+    hardware_id: "Velodyne HDL-32E"
+    values: 
+      - 
+        key: "Events in window"
+        value: "100"
+      - 
+        key: "Events since startup"
+        value: "33000"
+      - 
+        key: "Duration of window (s)"
+        value: "10.008766"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "9.991242"
+      - 
+        key: "Target frequency (Hz)"
+        value: "9.988950"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "8.990055"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "10.987845"
+      - 
+        key: "Earliest timestamp delay:"
+        value: "0.000311"
+      - 
+        key: "Latest timestamp delay:"
+        value: "0.000318"
+      - 
+        key: "Earliest acceptable timestamp delay:"
+        value: "-1.000000"
+      - 
+        key: "Latest acceptable timestamp delay:"
+        value: "5.000000"
+      - 
+        key: "Late diagnostic update count:"
+        value: "0"
+      - 
+        key: "Early diagnostic update count:"
+        value: "0"
+      - 
+        key: "Zero seen diagnostic update count:"
+        value: "0"
+---
+header: 
+  seq: 1841
+  stamp: 
+    secs: 1490150280
+    nsecs:  40738791
+  frame_id: ''
+status: 
+  - 
+    level: 0
+    name: "/GPS"
+    message: "OK"
+    hardware_id: ''
+    values: 
+      - 
+        key: "piksi_llh_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Piksi Status"
+        value: "PIKSI status OK"
+      - 
+        key: "piksi_time_diag: Frequency Status"
+        value: "Desired frequency met"
+  - 
+    level: 0
+    name: "/GPS/piksi_llh_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi lat/lon"
+    values: 
+      - 
+        key: "Events in window"
+        value: "77"
+      - 
+        key: "Events since startup"
+        value: "4000"
+      - 
+        key: "Duration of window (s)"
+        value: "50.013560"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "1.539582"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "Events in window"
+        value: "500"
+      - 
+        key: "Events since startup"
+        value: "18408"
+      - 
+        key: "Duration of window (s)"
+        value: "50.013591"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "9.997282"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Piksi Status"
+    message: "PIKSI status OK"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "io_failure_count"
+        value: "0"
+      - 
+        key: "open_failure_count"
+        value: "0"
+      - 
+        key: "Heartbeat status (0 = good)"
+        value: "0"
+      - 
+        key: "Number of satellites used in GPS RTK solution"
+        value: "8"
+      - 
+        key: "GPS RTK solution status (4 = good)"
+        value: "4"
+      - 
+        key: "GPS RTK meters north"
+        value: "9.786"
+      - 
+        key: "GPS RTK meters east"
+        value: "5.761"
+      - 
+        key: "GPS RTK height difference (m)"
+        value: "-0.132"
+      - 
+        key: "GPS RTK horizontal accuracy (m)"
+        value: "0.04"
+      - 
+        key: "GPS RTK velocity north"
+        value: "1.242"
+      - 
+        key: "GPS RTK velocity east"
+        value: "-2.347"
+      - 
+        key: "GPS RTK velocity up"
+        value: "0.013"
+      - 
+        key: "GPS RTK velocity flags"
+        value: "1"
+      - 
+        key: "GPS RTK orientation north"
+        value: "0.000467726"
+      - 
+        key: "GPS RTK orientation east"
+        value: "-0.00088386"
+      - 
+        key: "GPS RTK orientation up"
+        value: "4.89569e-06"
+      - 
+        key: "Number of satellites used for lat/lon"
+        value: "8"
+      - 
+        key: "GPS lat/lon solution status"
+        value: "7"
+      - 
+        key: "GPS latitude"
+        value: "37.4009"
+      - 
+        key: "GPS longitude"
+        value: "-122.108"
+      - 
+        key: "GPS altitude"
+        value: "-6.04929"
+      - 
+        key: "GPS lat/lon horizontal accuracy (m)"
+        value: "146"
+  - 
+    level: 0
+    name: "/GPS/piksi_time_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi heartbeat"
+    values: 
+      - 
+        key: "Events in window"
+        value: "50"
+      - 
+        key: "Events since startup"
+        value: "1762"
+      - 
+        key: "Duration of window (s)"
+        value: "50.097509"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "0.998054"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+---
+header: 
+  seq: 3572
+  stamp: 
+    secs: 1490150280
+    nsecs: 658466648
+  frame_id: ''
+status: 
+  - 
+    level: 0
+    name: "/GPS"
+    message: "OK"
+    hardware_id: ''
+    values: 
+      - 
+        key: "piksi_llh_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Piksi Status"
+        value: "PIKSI status OK"
+      - 
+        key: "piksi_time_diag: Frequency Status"
+        value: "Desired frequency met"
+  - 
+    level: 0
+    name: "/GPS/piksi_llh_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi lat/lon"
+    values: 
+      - 
+        key: "Events in window"
+        value: "384"
+      - 
+        key: "Events since startup"
+        value: "24223"
+      - 
+        key: "Duration of window (s)"
+        value: "50.008310"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "7.678724"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "Events in window"
+        value: "500"
+      - 
+        key: "Events since startup"
+        value: "35718"
+      - 
+        key: "Duration of window (s)"
+        value: "50.008346"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "9.998331"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Piksi Status"
+    message: "PIKSI status OK"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "io_failure_count"
+        value: "0"
+      - 
+        key: "open_failure_count"
+        value: "0"
+      - 
+        key: "Heartbeat status (0 = good)"
+        value: "0"
+      - 
+        key: "Number of satellites used in GPS RTK solution"
+        value: "8"
+      - 
+        key: "GPS RTK solution status (4 = good)"
+        value: "4"
+      - 
+        key: "GPS RTK meters north"
+        value: "14.38"
+      - 
+        key: "GPS RTK meters east"
+        value: "6.09"
+      - 
+        key: "GPS RTK height difference (m)"
+        value: "-0.023"
+      - 
+        key: "GPS RTK horizontal accuracy (m)"
+        value: "0.04"
+      - 
+        key: "GPS RTK velocity north"
+        value: "0.372"
+      - 
+        key: "GPS RTK velocity east"
+        value: "-0.746"
+      - 
+        key: "GPS RTK velocity up"
+        value: "0.034"
+      - 
+        key: "GPS RTK velocity flags"
+        value: "1"
+      - 
+        key: "GPS RTK orientation north"
+        value: "0.000445883"
+      - 
+        key: "GPS RTK orientation east"
+        value: "-0.000894163"
+      - 
+        key: "GPS RTK orientation up"
+        value: "4.07527e-05"
+      - 
+        key: "Number of satellites used for lat/lon"
+        value: "8"
+      - 
+        key: "GPS lat/lon solution status"
+        value: "7"
+      - 
+        key: "GPS latitude"
+        value: "37.4009"
+      - 
+        key: "GPS longitude"
+        value: "-122.108"
+      - 
+        key: "GPS altitude"
+        value: "-5.93907"
+      - 
+        key: "GPS lat/lon horizontal accuracy (m)"
+        value: "146"
+  - 
+    level: 0
+    name: "/GPS/piksi_time_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi heartbeat"
+    values: 
+      - 
+        key: "Events in window"
+        value: "46"
+      - 
+        key: "Events since startup"
+        value: "3439"
+      - 
+        key: "Duration of window (s)"
+        value: "50.008307"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "0.919847"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/Other"
+    message: "OK"
+    hardware_id: ''
+    values: 
+      - 
+        key: "velodyne_nodelet_manager: velodyne_packets topic status"
+        value: "Desired frequency met; Timestamps are reasonable."
+  - 
+    level: 0
+    name: "/Other/velodyne_nodelet_manager: velodyne_packets topic status"
+    message: "Desired frequency met; Timestamps are reasonable."
+    hardware_id: "Velodyne HDL-32E"
+    values: 
+      - 
+        key: "Events in window"
+        value: "100"
+      - 
+        key: "Events since startup"
+        value: "33010"
+      - 
+        key: "Duration of window (s)"
+        value: "10.008769"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "9.991239"
+      - 
+        key: "Target frequency (Hz)"
+        value: "9.988950"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "8.990055"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "10.987845"
+      - 
+        key: "Earliest timestamp delay:"
+        value: "0.000307"
+      - 
+        key: "Latest timestamp delay:"
+        value: "0.000324"
+      - 
+        key: "Earliest acceptable timestamp delay:"
+        value: "-1.000000"
+      - 
+        key: "Latest acceptable timestamp delay:"
+        value: "5.000000"
+      - 
+        key: "Late diagnostic update count:"
+        value: "0"
+      - 
+        key: "Early diagnostic update count:"
+        value: "0"
+      - 
+        key: "Zero seen diagnostic update count:"
+        value: "0"
+---
+header: 
+  seq: 1842
+  stamp: 
+    secs: 1490150281
+    nsecs:  40723314
+  frame_id: ''
+status: 
+  - 
+    level: 0
+    name: "/GPS"
+    message: "OK"
+    hardware_id: ''
+    values: 
+      - 
+        key: "piksi_llh_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Piksi Status"
+        value: "PIKSI status OK"
+      - 
+        key: "piksi_time_diag: Frequency Status"
+        value: "Desired frequency met"
+  - 
+    level: 0
+    name: "/GPS/piksi_llh_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi lat/lon"
+    values: 
+      - 
+        key: "Events in window"
+        value: "76"
+      - 
+        key: "Events since startup"
+        value: "4000"
+      - 
+        key: "Duration of window (s)"
+        value: "50.013403"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "1.519593"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "Events in window"
+        value: "500"
+      - 
+        key: "Events since startup"
+        value: "18418"
+      - 
+        key: "Duration of window (s)"
+        value: "50.013459"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "9.997309"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Piksi Status"
+    message: "PIKSI status OK"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "io_failure_count"
+        value: "0"
+      - 
+        key: "open_failure_count"
+        value: "0"
+      - 
+        key: "Heartbeat status (0 = good)"
+        value: "0"
+      - 
+        key: "Number of satellites used in GPS RTK solution"
+        value: "8"
+      - 
+        key: "GPS RTK solution status (4 = good)"
+        value: "4"
+      - 
+        key: "GPS RTK meters north"
+        value: "7.488"
+      - 
+        key: "GPS RTK meters east"
+        value: "6.934"
+      - 
+        key: "GPS RTK height difference (m)"
+        value: "-0.206"
+      - 
+        key: "GPS RTK horizontal accuracy (m)"
+        value: "0.04"
+      - 
+        key: "GPS RTK velocity north"
+        value: "1.101"
+      - 
+        key: "GPS RTK velocity east"
+        value: "-2.125"
+      - 
+        key: "GPS RTK velocity up"
+        value: "-0.066"
+      - 
+        key: "GPS RTK velocity flags"
+        value: "1"
+      - 
+        key: "GPS RTK orientation north"
+        value: "0.000459862"
+      - 
+        key: "GPS RTK orientation east"
+        value: "-0.000887563"
+      - 
+        key: "GPS RTK orientation up"
+        value: "-2.75666e-05"
+      - 
+        key: "Number of satellites used for lat/lon"
+        value: "8"
+      - 
+        key: "GPS lat/lon solution status"
+        value: "7"
+      - 
+        key: "GPS latitude"
+        value: "37.4009"
+      - 
+        key: "GPS longitude"
+        value: "-122.108"
+      - 
+        key: "GPS altitude"
+        value: "-6.04929"
+      - 
+        key: "GPS lat/lon horizontal accuracy (m)"
+        value: "146"
+  - 
+    level: 0
+    name: "/GPS/piksi_time_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi heartbeat"
+    values: 
+      - 
+        key: "Events in window"
+        value: "50"
+      - 
+        key: "Events since startup"
+        value: "1763"
+      - 
+        key: "Duration of window (s)"
+        value: "50.097405"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "0.998056"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+---
+header: 
+  seq: 3573
+  stamp: 
+    secs: 1490150281
+    nsecs: 658488887
+  frame_id: ''
+status: 
+  - 
+    level: 0
+    name: "/GPS"
+    message: "OK"
+    hardware_id: ''
+    values: 
+      - 
+        key: "piksi_llh_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Piksi Status"
+        value: "PIKSI status OK"
+      - 
+        key: "piksi_time_diag: Frequency Status"
+        value: "Desired frequency met"
+  - 
+    level: 0
+    name: "/GPS/piksi_llh_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi lat/lon"
+    values: 
+      - 
+        key: "Events in window"
+        value: "385"
+      - 
+        key: "Events since startup"
+        value: "24229"
+      - 
+        key: "Duration of window (s)"
+        value: "50.008248"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "7.698730"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "Events in window"
+        value: "500"
+      - 
+        key: "Events since startup"
+        value: "35728"
+      - 
+        key: "Duration of window (s)"
+        value: "50.008235"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "9.998353"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Piksi Status"
+    message: "PIKSI status OK"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "io_failure_count"
+        value: "0"
+      - 
+        key: "open_failure_count"
+        value: "0"
+      - 
+        key: "Heartbeat status (0 = good)"
+        value: "0"
+      - 
+        key: "Number of satellites used in GPS RTK solution"
+        value: "8"
+      - 
+        key: "GPS RTK solution status (4 = good)"
+        value: "4"
+      - 
+        key: "GPS RTK meters north"
+        value: "13.428"
+      - 
+        key: "GPS RTK meters east"
+        value: "6.594"
+      - 
+        key: "GPS RTK height difference (m)"
+        value: "-0.045"
+      - 
+        key: "GPS RTK horizontal accuracy (m)"
+        value: "0.04"
+      - 
+        key: "GPS RTK velocity north"
+        value: "0.58"
+      - 
+        key: "GPS RTK velocity east"
+        value: "-1.081"
+      - 
+        key: "GPS RTK velocity up"
+        value: "-0.012"
+      - 
+        key: "GPS RTK velocity flags"
+        value: "1"
+      - 
+        key: "GPS RTK orientation north"
+        value: "0.000472764"
+      - 
+        key: "GPS RTK orientation east"
+        value: "-0.000881135"
+      - 
+        key: "GPS RTK orientation up"
+        value: "-9.78133e-06"
+      - 
+        key: "Number of satellites used for lat/lon"
+        value: "8"
+      - 
+        key: "GPS lat/lon solution status"
+        value: "7"
+      - 
+        key: "GPS latitude"
+        value: "37.4009"
+      - 
+        key: "GPS longitude"
+        value: "-122.108"
+      - 
+        key: "GPS altitude"
+        value: "-5.95957"
+      - 
+        key: "GPS lat/lon horizontal accuracy (m)"
+        value: "146"
+  - 
+    level: 0
+    name: "/GPS/piksi_time_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi heartbeat"
+    values: 
+      - 
+        key: "Events in window"
+        value: "46"
+      - 
+        key: "Events since startup"
+        value: "3440"
+      - 
+        key: "Duration of window (s)"
+        value: "50.008246"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "0.919848"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/Other"
+    message: "OK"
+    hardware_id: ''
+    values: 
+      - 
+        key: "velodyne_nodelet_manager: velodyne_packets topic status"
+        value: "Desired frequency met; Timestamps are reasonable."
+  - 
+    level: 0
+    name: "/Other/velodyne_nodelet_manager: velodyne_packets topic status"
+    message: "Desired frequency met; Timestamps are reasonable."
+    hardware_id: "Velodyne HDL-32E"
+    values: 
+      - 
+        key: "Events in window"
+        value: "100"
+      - 
+        key: "Events since startup"
+        value: "33020"
+      - 
+        key: "Duration of window (s)"
+        value: "10.008727"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "9.991280"
+      - 
+        key: "Target frequency (Hz)"
+        value: "9.988950"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "8.990055"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "10.987845"
+      - 
+        key: "Earliest timestamp delay:"
+        value: "0.000311"
+      - 
+        key: "Latest timestamp delay:"
+        value: "0.000319"
+      - 
+        key: "Earliest acceptable timestamp delay:"
+        value: "-1.000000"
+      - 
+        key: "Latest acceptable timestamp delay:"
+        value: "5.000000"
+      - 
+        key: "Late diagnostic update count:"
+        value: "0"
+      - 
+        key: "Early diagnostic update count:"
+        value: "0"
+      - 
+        key: "Zero seen diagnostic update count:"
+        value: "0"
+---
+header: 
+  seq: 1843
+  stamp: 
+    secs: 1490150282
+    nsecs:  40706320
+  frame_id: ''
+status: 
+  - 
+    level: 0
+    name: "/GPS"
+    message: "OK"
+    hardware_id: ''
+    values: 
+      - 
+        key: "piksi_llh_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Piksi Status"
+        value: "PIKSI status OK"
+      - 
+        key: "piksi_time_diag: Frequency Status"
+        value: "Desired frequency met"
+  - 
+    level: 0
+    name: "/GPS/piksi_llh_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi lat/lon"
+    values: 
+      - 
+        key: "Events in window"
+        value: "76"
+      - 
+        key: "Events since startup"
+        value: "4003"
+      - 
+        key: "Duration of window (s)"
+        value: "50.013021"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "1.519604"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "Events in window"
+        value: "500"
+      - 
+        key: "Events since startup"
+        value: "18428"
+      - 
+        key: "Duration of window (s)"
+        value: "50.013019"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "9.997397"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Piksi Status"
+    message: "PIKSI status OK"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "io_failure_count"
+        value: "0"
+      - 
+        key: "open_failure_count"
+        value: "0"
+      - 
+        key: "Heartbeat status (0 = good)"
+        value: "0"
+      - 
+        key: "Number of satellites used in GPS RTK solution"
+        value: "8"
+      - 
+        key: "GPS RTK solution status (4 = good)"
+        value: "4"
+      - 
+        key: "GPS RTK meters north"
+        value: "5.931"
+      - 
+        key: "GPS RTK meters east"
+        value: "7.743"
+      - 
+        key: "GPS RTK height difference (m)"
+        value: "-0.268"
+      - 
+        key: "GPS RTK horizontal accuracy (m)"
+        value: "0.04"
+      - 
+        key: "GPS RTK velocity north"
+        value: "0.719"
+      - 
+        key: "GPS RTK velocity east"
+        value: "-1.352"
+      - 
+        key: "GPS RTK velocity up"
+        value: "0.018"
+      - 
+        key: "GPS RTK velocity flags"
+        value: "1"
+      - 
+        key: "GPS RTK orientation north"
+        value: "0.000469505"
+      - 
+        key: "GPS RTK orientation east"
+        value: "-0.000882852"
+      - 
+        key: "GPS RTK orientation up"
+        value: "1.17539e-05"
+      - 
+        key: "Number of satellites used for lat/lon"
+        value: "8"
+      - 
+        key: "GPS lat/lon solution status"
+        value: "7"
+      - 
+        key: "GPS latitude"
+        value: "37.4009"
+      - 
+        key: "GPS longitude"
+        value: "-122.108"
+      - 
+        key: "GPS altitude"
+        value: "-6.17917"
+      - 
+        key: "GPS lat/lon horizontal accuracy (m)"
+        value: "146"
+  - 
+    level: 0
+    name: "/GPS/piksi_time_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi heartbeat"
+    values: 
+      - 
+        key: "Events in window"
+        value: "50"
+      - 
+        key: "Events since startup"
+        value: "1764"
+      - 
+        key: "Duration of window (s)"
+        value: "50.097354"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "0.998057"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+---
+header: 
+  seq: 3574
+  stamp: 
+    secs: 1490150282
+    nsecs: 658494023
+  frame_id: ''
+status: 
+  - 
+    level: 0
+    name: "/GPS"
+    message: "OK"
+    hardware_id: ''
+    values: 
+      - 
+        key: "piksi_llh_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Piksi Status"
+        value: "PIKSI status OK"
+      - 
+        key: "piksi_time_diag: Frequency Status"
+        value: "Desired frequency met"
+  - 
+    level: 0
+    name: "/GPS/piksi_llh_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi lat/lon"
+    values: 
+      - 
+        key: "Events in window"
+        value: "385"
+      - 
+        key: "Events since startup"
+        value: "24236"
+      - 
+        key: "Duration of window (s)"
+        value: "50.008238"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "7.698731"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "Events in window"
+        value: "500"
+      - 
+        key: "Events since startup"
+        value: "35738"
+      - 
+        key: "Duration of window (s)"
+        value: "50.008244"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "9.998351"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Piksi Status"
+    message: "PIKSI status OK"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "io_failure_count"
+        value: "0"
+      - 
+        key: "open_failure_count"
+        value: "0"
+      - 
+        key: "Heartbeat status (0 = good)"
+        value: "0"
+      - 
+        key: "Number of satellites used in GPS RTK solution"
+        value: "8"
+      - 
+        key: "GPS RTK solution status (4 = good)"
+        value: "4"
+      - 
+        key: "GPS RTK meters north"
+        value: "12.334"
+      - 
+        key: "GPS RTK meters east"
+        value: "7.213"
+      - 
+        key: "GPS RTK height difference (m)"
+        value: "-0.084"
+      - 
+        key: "GPS RTK horizontal accuracy (m)"
+        value: "0.04"
+      - 
+        key: "GPS RTK velocity north"
+        value: "0.59"
+      - 
+        key: "GPS RTK velocity east"
+        value: "-1.002"
+      - 
+        key: "GPS RTK velocity up"
+        value: "-0.017"
+      - 
+        key: "GPS RTK velocity flags"
+        value: "1"
+      - 
+        key: "GPS RTK orientation north"
+        value: "0.000507342"
+      - 
+        key: "GPS RTK orientation east"
+        value: "-0.000861621"
+      - 
+        key: "GPS RTK orientation up"
+        value: "-1.46183e-05"
+      - 
+        key: "Number of satellites used for lat/lon"
+        value: "8"
+      - 
+        key: "GPS lat/lon solution status"
+        value: "7"
+      - 
+        key: "GPS latitude"
+        value: "37.4009"
+      - 
+        key: "GPS longitude"
+        value: "-122.108"
+      - 
+        key: "GPS altitude"
+        value: "-5.99624"
+      - 
+        key: "GPS lat/lon horizontal accuracy (m)"
+        value: "146"
+  - 
+    level: 0
+    name: "/GPS/piksi_time_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi heartbeat"
+    values: 
+      - 
+        key: "Events in window"
+        value: "46"
+      - 
+        key: "Events since startup"
+        value: "3441"
+      - 
+        key: "Duration of window (s)"
+        value: "50.008237"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "0.919848"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/Other"
+    message: "OK"
+    hardware_id: ''
+    values: 
+      - 
+        key: "velodyne_nodelet_manager: velodyne_packets topic status"
+        value: "Desired frequency met; Timestamps are reasonable."
+  - 
+    level: 0
+    name: "/Other/velodyne_nodelet_manager: velodyne_packets topic status"
+    message: "Desired frequency met; Timestamps are reasonable."
+    hardware_id: "Velodyne HDL-32E"
+    values: 
+      - 
+        key: "Events in window"
+        value: "100"
+      - 
+        key: "Events since startup"
+        value: "33030"
+      - 
+        key: "Duration of window (s)"
+        value: "10.008712"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "9.991295"
+      - 
+        key: "Target frequency (Hz)"
+        value: "9.988950"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "8.990055"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "10.987845"
+      - 
+        key: "Earliest timestamp delay:"
+        value: "0.000299"
+      - 
+        key: "Latest timestamp delay:"
+        value: "0.000320"
+      - 
+        key: "Earliest acceptable timestamp delay:"
+        value: "-1.000000"
+      - 
+        key: "Latest acceptable timestamp delay:"
+        value: "5.000000"
+      - 
+        key: "Late diagnostic update count:"
+        value: "0"
+      - 
+        key: "Early diagnostic update count:"
+        value: "0"
+      - 
+        key: "Zero seen diagnostic update count:"
+        value: "0"
+---
+header: 
+  seq: 1844
+  stamp: 
+    secs: 1490150283
+    nsecs:  40714967
+  frame_id: ''
+status: 
+  - 
+    level: 0
+    name: "/GPS"
+    message: "OK"
+    hardware_id: ''
+    values: 
+      - 
+        key: "piksi_llh_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Piksi Status"
+        value: "PIKSI status OK"
+      - 
+        key: "piksi_time_diag: Frequency Status"
+        value: "Desired frequency met"
+  - 
+    level: 0
+    name: "/GPS/piksi_llh_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi lat/lon"
+    values: 
+      - 
+        key: "Events in window"
+        value: "77"
+      - 
+        key: "Events since startup"
+        value: "4005"
+      - 
+        key: "Duration of window (s)"
+        value: "50.013048"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "1.539598"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "Events in window"
+        value: "500"
+      - 
+        key: "Events since startup"
+        value: "18438"
+      - 
+        key: "Duration of window (s)"
+        value: "50.013044"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "9.997392"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Piksi Status"
+    message: "PIKSI status OK"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "io_failure_count"
+        value: "0"
+      - 
+        key: "open_failure_count"
+        value: "0"
+      - 
+        key: "Heartbeat status (0 = good)"
+        value: "0"
+      - 
+        key: "Number of satellites used in GPS RTK solution"
+        value: "8"
+      - 
+        key: "GPS RTK solution status (4 = good)"
+        value: "4"
+      - 
+        key: "GPS RTK meters north"
+        value: "4.636"
+      - 
+        key: "GPS RTK meters east"
+        value: "8.485"
+      - 
+        key: "GPS RTK height difference (m)"
+        value: "-0.31"
+      - 
+        key: "GPS RTK horizontal accuracy (m)"
+        value: "0.04"
+      - 
+        key: "GPS RTK velocity north"
+        value: "0.891"
+      - 
+        key: "GPS RTK velocity east"
+        value: "-1.212"
+      - 
+        key: "GPS RTK velocity up"
+        value: "-0.02"
+      - 
+        key: "GPS RTK velocity flags"
+        value: "1"
+      - 
+        key: "GPS RTK orientation north"
+        value: "0.000592262"
+      - 
+        key: "GPS RTK orientation east"
+        value: "-0.000805636"
+      - 
+        key: "GPS RTK orientation up"
+        value: "-1.32943e-05"
+      - 
+        key: "Number of satellites used for lat/lon"
+        value: "8"
+      - 
+        key: "GPS lat/lon solution status"
+        value: "7"
+      - 
+        key: "GPS latitude"
+        value: "37.4009"
+      - 
+        key: "GPS longitude"
+        value: "-122.108"
+      - 
+        key: "GPS altitude"
+        value: "-6.20318"
+      - 
+        key: "GPS lat/lon horizontal accuracy (m)"
+        value: "146"
+  - 
+    level: 0
+    name: "/GPS/piksi_time_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi heartbeat"
+    values: 
+      - 
+        key: "Events in window"
+        value: "50"
+      - 
+        key: "Events since startup"
+        value: "1765"
+      - 
+        key: "Duration of window (s)"
+        value: "50.097455"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "0.998055"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+---
+header: 
+  seq: 3575
+  stamp: 
+    secs: 1490150283
+    nsecs: 658494175
+  frame_id: ''
+status: 
+  - 
+    level: 0
+    name: "/GPS"
+    message: "OK"
+    hardware_id: ''
+    values: 
+      - 
+        key: "piksi_llh_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Frequency Status"
+        value: "Desired frequency met"
+      - 
+        key: "piksi_rtk_diag: Piksi Status"
+        value: "PIKSI status OK"
+      - 
+        key: "piksi_time_diag: Frequency Status"
+        value: "Desired frequency met"
+  - 
+    level: 0
+    name: "/GPS/piksi_llh_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi lat/lon"
+    values: 
+      - 
+        key: "Events in window"
+        value: "383"
+      - 
+        key: "Events since startup"
+        value: "24242"
+      - 
+        key: "Duration of window (s)"
+        value: "50.008318"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "7.658726"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "Events in window"
+        value: "500"
+      - 
+        key: "Events since startup"
+        value: "35748"
+      - 
+        key: "Duration of window (s)"
+        value: "50.008278"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "9.998345"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/GPS/piksi_rtk_diag: Piksi Status"
+    message: "PIKSI status OK"
+    hardware_id: "piksi rtk"
+    values: 
+      - 
+        key: "io_failure_count"
+        value: "0"
+      - 
+        key: "open_failure_count"
+        value: "0"
+      - 
+        key: "Heartbeat status (0 = good)"
+        value: "0"
+      - 
+        key: "Number of satellites used in GPS RTK solution"
+        value: "8"
+      - 
+        key: "GPS RTK solution status (4 = good)"
+        value: "4"
+      - 
+        key: "GPS RTK meters north"
+        value: "11.384"
+      - 
+        key: "GPS RTK meters east"
+        value: "7.784"
+      - 
+        key: "GPS RTK height difference (m)"
+        value: "-0.101"
+      - 
+        key: "GPS RTK horizontal accuracy (m)"
+        value: "0.04"
+      - 
+        key: "GPS RTK velocity north"
+        value: "0.513"
+      - 
+        key: "GPS RTK velocity east"
+        value: "-0.85"
+      - 
+        key: "GPS RTK velocity up"
+        value: "0.126"
+      - 
+        key: "GPS RTK velocity flags"
+        value: "1"
+      - 
+        key: "GPS RTK orientation north"
+        value: "0.000512604"
+      - 
+        key: "GPS RTK orientation east"
+        value: "-0.000849344"
+      - 
+        key: "GPS RTK orientation up"
+        value: "0.000125903"
+      - 
+        key: "Number of satellites used for lat/lon"
+        value: "8"
+      - 
+        key: "GPS lat/lon solution status"
+        value: "7"
+      - 
+        key: "GPS latitude"
+        value: "37.4009"
+      - 
+        key: "GPS longitude"
+        value: "-122.108"
+      - 
+        key: "GPS altitude"
+        value: "-6.01217"
+      - 
+        key: "GPS lat/lon horizontal accuracy (m)"
+        value: "146"
+  - 
+    level: 0
+    name: "/GPS/piksi_time_diag: Frequency Status"
+    message: "Desired frequency met"
+    hardware_id: "piksi heartbeat"
+    values: 
+      - 
+        key: "Events in window"
+        value: "46"
+      - 
+        key: "Events since startup"
+        value: "3442"
+      - 
+        key: "Duration of window (s)"
+        value: "50.008314"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "0.919847"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "0.450000"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "55.000000"
+  - 
+    level: 0
+    name: "/Other"
+    message: "OK"
+    hardware_id: ''
+    values: 
+      - 
+        key: "velodyne_nodelet_manager: velodyne_packets topic status"
+        value: "Desired frequency met; Timestamps are reasonable."
+  - 
+    level: 0
+    name: "/Other/velodyne_nodelet_manager: velodyne_packets topic status"
+    message: "Desired frequency met; Timestamps are reasonable."
+    hardware_id: "Velodyne HDL-32E"
+    values: 
+      - 
+        key: "Events in window"
+        value: "100"
+      - 
+        key: "Events since startup"
+        value: "33040"
+      - 
+        key: "Duration of window (s)"
+        value: "10.008718"
+      - 
+        key: "Actual frequency (Hz)"
+        value: "9.991289"
+      - 
+        key: "Target frequency (Hz)"
+        value: "9.988950"
+      - 
+        key: "Minimum acceptable frequency (Hz)"
+        value: "8.990055"
+      - 
+        key: "Maximum acceptable frequency (Hz)"
+        value: "10.987845"
+      - 
+        key: "Earliest timestamp delay:"
+        value: "0.000311"
+      - 
+        key: "Latest timestamp delay:"
+        value: "0.000320"
+      - 
+        key: "Earliest acceptable timestamp delay:"
+        value: "-1.000000"
+      - 
+        key: "Latest acceptable timestamp delay:"
+        value: "5.000000"
+      - 
+        key: "Late diagnostic update count:"
+        value: "0"
+      - 
+        key: "Early diagnostic update count:"
+        value: "0"
+      - 
+        key: "Zero seen diagnostic update count:"
+        value: "0"
+---

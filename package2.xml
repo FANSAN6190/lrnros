@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<package format="2">
+  <!-- The name and the version tag tells details about the name of the package and the current version of the package -->
+  <name>ros_tutorials</name>
+  <version>0.0.0</version>
+  
+  <!-- The description covers the scope of the package -->
+  <!-- The description can be broken up in multiple line but try to keep as short as possible -->
+  
+  <description>The beginner ros package tutorial</description>
+
+  <!-- The maintainer email is reuquired to let other's know who to contact about the package -->
+
+  <maintainer email="ashutosh@todo.todo">ashutosh</maintainer>
+  <maintainer email="ashutoshgupta1311@gmail.com">Ashutosh Gupta</maintainer>
+  
+  <!-- Required minimum one license tag , multiple is allowed , one license per tag -->
+  <!-- Some common open source licenses are BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, and LGPLv3. -->
+  
+  <license>TODO</license>
+  <license>BSD</license>
+  
+  <!-- url tag can be used for adding some urls such as website or github -->
+
+  <url type="website">rospinot.com</url>
+
+  <!-- The author tag is used to list the details about the author such as name , email etc. -->
+
+  <author email="asutoshgupta1311@gmail.com">Ashutosh Gupta</author>
+  
+  <!-- The dependency tag consist of all the dependencies that were passed while creating the catkin package-->
+  <!-- Since we passed std_msgs, roscpp, and rospy as arguments to catkin_create_pkg, the dependencies will look like this: --> 
+  <!-- build_depend for packages you need at compile time: -->
+  <!-- buildtool_depend for build tool packages: -->
+  <!-- exec_depend for packages you need at runtime: -->
+  <!-- test_depend for packages you need only for testing: -->
+  <!-- In this case we want all of our specified dependencies to be available at build and run time, so we'll add a exec_depend tag for each of them as well: -->
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+
+</package>
