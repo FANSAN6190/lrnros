@@ -1,0 +1,8 @@
+prefix=/home/fansan/Desktop/lrnros/catkin_ws/devel
+
+Name: FAMBot_description
+Description: Description of FAMBot_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

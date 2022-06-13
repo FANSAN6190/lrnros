@@ -57,6 +57,7 @@ all: gtest/all
 all: gazebo_ros_demos/rrbot_control/all
 all: gazebo_ros_demos/rrbot_description/all
 all: gazebo_ros_demos/rrbot_gazebo/all
+all: fambot_description/all
 all: beginner_tutorials/all
 all: bot1_description/all
 all: foobar/all
@@ -70,6 +71,7 @@ preinstall: gtest/preinstall
 preinstall: gazebo_ros_demos/rrbot_control/preinstall
 preinstall: gazebo_ros_demos/rrbot_description/preinstall
 preinstall: gazebo_ros_demos/rrbot_gazebo/preinstall
+preinstall: fambot_description/preinstall
 preinstall: beginner_tutorials/preinstall
 preinstall: bot1_description/preinstall
 preinstall: foobar/preinstall
@@ -88,6 +90,7 @@ clean: gtest/clean
 clean: gazebo_ros_demos/rrbot_control/clean
 clean: gazebo_ros_demos/rrbot_description/clean
 clean: gazebo_ros_demos/rrbot_gazebo/clean
+clean: fambot_description/clean
 clean: beginner_tutorials/clean
 clean: bot1_description/clean
 clean: foobar/clean
@@ -166,6 +169,24 @@ bot1_description/preinstall:
 bot1_description/clean:
 
 .PHONY : bot1_description/clean
+
+#=============================================================================
+# Directory level rules for directory fambot_description
+
+# Recursive "all" directory target.
+fambot_description/all:
+
+.PHONY : fambot_description/all
+
+# Recursive "preinstall" directory target.
+fambot_description/preinstall:
+
+.PHONY : fambot_description/preinstall
+
+# Recursive "clean" directory target.
+fambot_description/clean:
+
+.PHONY : fambot_description/clean
 
 #=============================================================================
 # Directory level rules for directory foobar
