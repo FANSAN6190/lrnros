@@ -1,4 +1,4 @@
-# Install script for directory: /home/fansan/Desktop/lrnros/catkin_ws/src/FAMBot_description
+# Install script for directory: /home/fansan/Desktop/lrnros/catkin_ws/src/fambot_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/fansan/Desktop/lrnros/catkin_ws/build/FAMBot_description/catkin_generated/installspace/FAMBot_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/fansan/Desktop/lrnros/catkin_ws/build/fambot_description/catkin_generated/installspace/FAMBot_description.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/FAMBot_description/cmake" TYPE FILE FILES
-    "/home/fansan/Desktop/lrnros/catkin_ws/build/FAMBot_description/catkin_generated/installspace/FAMBot_descriptionConfig.cmake"
-    "/home/fansan/Desktop/lrnros/catkin_ws/build/FAMBot_description/catkin_generated/installspace/FAMBot_descriptionConfig-version.cmake"
+    "/home/fansan/Desktop/lrnros/catkin_ws/build/fambot_description/catkin_generated/installspace/FAMBot_descriptionConfig.cmake"
+    "/home/fansan/Desktop/lrnros/catkin_ws/build/fambot_description/catkin_generated/installspace/FAMBot_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/FAMBot_description" TYPE FILE FILES "/home/fansan/Desktop/lrnros/catkin_ws/src/FAMBot_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/FAMBot_description" TYPE FILE FILES "/home/fansan/Desktop/lrnros/catkin_ws/src/fambot_description/package.xml")
 endif()
 
