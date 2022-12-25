@@ -1,0 +1,649 @@
+<?xml version="1.0" ?>
+<robot name="FAMBot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find FAMBot_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find FAMBot_description)/urdf/FAMBot.trans" />
+<xacro:include filename="$(find FAMBot_description)/urdf/FAMBot.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="9.123860144779331e-07 8.201740454765821e-07 0.0006157357168520088" rpy="0 0 0"/>
+    <mass value="0.2877285465124343"/>
+    <inertia ixx="0.002895" iyy="0.004199" izz="0.006976" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="bldcs1_1">
+  <inertial>
+    <origin xyz="-3.6531888625290776e-13 9.298117831235686e-15 -0.0029999999999999944" rpy="0 0 0"/>
+    <mass value="0.0020052594467061787"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.17 0.137 -0.0025" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/bldcs1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.17 0.137 -0.0025" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/bldcs1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="rotar1_1">
+  <inertial>
+    <origin xyz="-8.954008340333885e-09 3.747736510018029e-09 -0.0051853439855846515" rpy="0 0 0"/>
+    <mass value="0.0022206158457226013"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="2e-06" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.17 0.137 -0.01275" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/rotar1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.17 0.137 -0.01275" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/rotar1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="bldcm1_1">
+  <inertial>
+    <origin xyz="1.942890293094024e-16 -1.4183099139586375e-14 0.008888158957923591" rpy="0 0 0"/>
+    <mass value="0.03902934303193673"/>
+    <inertia ixx="4e-06" iyy="4e-06" izz="5e-06" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.17 0.137 0.0155" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/bldcm1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.17 0.137 0.0155" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/bldcm1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="bldcs2_1">
+  <inertial>
+    <origin xyz="-1.642574964932919e-13 -1.6345258480043867e-13 -0.003000000000000013" rpy="0 0 0"/>
+    <mass value="0.0020052594467062173"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.17 0.137 -0.0025" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/bldcs2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.17 0.137 -0.0025" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/bldcs2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="rotar2_1">
+  <inertial>
+    <origin xyz="-1.3908068058343659e-08 3.48189155285894e-09 -0.005185342842046791" rpy="0 0 0"/>
+    <mass value="0.002220625102479936"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="2e-06" ixy="0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.17 0.137 -0.01275" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/rotar2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.17 0.137 -0.01275" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/rotar2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="bldcm2_1">
+  <inertial>
+    <origin xyz="-1.4072076837123859e-14 -1.6653345369377348e-16 0.008888158957923574" rpy="0 0 0"/>
+    <mass value="0.03902934303193669"/>
+    <inertia ixx="4e-06" iyy="4e-06" izz="5e-06" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.17 0.137 0.0155" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/bldcm2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.17 0.137 0.0155" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/bldcm2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="bldcs3_1">
+  <inertial>
+    <origin xyz="7.260858581048524e-14 1.7968959653558159e-13 -0.002999999999999986" rpy="0 0 0"/>
+    <mass value="0.002005259446706099"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.17 -0.137 -0.0025" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/bldcs3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.17 -0.137 -0.0025" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/bldcs3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="rotar3_1">
+  <inertial>
+    <origin xyz="9.677426110465959e-09 7.531468226851246e-10 -0.005185343985584622" rpy="0 0 0"/>
+    <mass value="0.002220615845722659"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="2e-06" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.17 -0.137 -0.01275" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/rotar3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.17 -0.137 -0.01275" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/rotar3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="bldcm3_1">
+  <inertial>
+    <origin xyz="-8.326672684688674e-17 -1.3961054534661343e-14 0.008888158957923609" rpy="0 0 0"/>
+    <mass value="0.039029343031936635"/>
+    <inertia ixx="4e-06" iyy="4e-06" izz="5e-06" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.17 -0.137 0.0155" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/bldcm3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.17 -0.137 0.0155" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/bldcm3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="bldcs4_1">
+  <inertial>
+    <origin xyz="3.3151259515307174e-13 7.76601005725297e-14 -0.002999999999999994" rpy="0 0 0"/>
+    <mass value="0.002005259446706155"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.17 -0.137 -0.0025" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/bldcs4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.17 -0.137 -0.0025" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/bldcs4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="rotar4_1">
+  <inertial>
+    <origin xyz="-1.1998867621709763e-08 -7.847617250478223e-09 -0.005185342842046786" rpy="0 0 0"/>
+    <mass value="0.0022206251024800144"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="2e-06" ixy="0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.17 -0.137 -0.01275" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/rotar4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.17 -0.137 -0.01275" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/rotar4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="bldcm4_1">
+  <inertial>
+    <origin xyz="1.942890293094024e-16 1.4099832412739488e-14 0.008888158957923591" rpy="0 0 0"/>
+    <mass value="0.03902934303193679"/>
+    <inertia ixx="4e-06" iyy="4e-06" izz="5e-06" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.17 -0.137 0.0155" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/bldcm4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.17 -0.137 0.0155" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/bldcm4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="servs1_1">
+  <inertial>
+    <origin xyz="-2.61783650312708e-13 -0.0035000293539870237 -4.2800718698388085e-09" rpy="0 0 0"/>
+    <mass value="0.003397436105316656"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.05025 -0.003502 0.028336" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/servs1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.05025 -0.003502 0.028336" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/servs1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="servs2_1">
+  <inertial>
+    <origin xyz="2.6133956110285794e-13 -0.004000029353987028 -4.280072914142341e-09" rpy="0 0 0"/>
+    <mass value="0.003397436105316658"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.05025 -0.004002 0.028336" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/servs2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.05025 -0.004002 0.028336" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/servs2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="lg2_1">
+  <inertial>
+    <origin xyz="-0.010827655521039904 -0.011000029353987008 -0.00831582339763172" rpy="0 0 0"/>
+    <mass value="0.017298346169641488"/>
+    <inertia ixx="3.8e-05" iyy="2e-06" izz="3.8e-05" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.05025 -0.011002 0.028336" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/lg2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.05025 -0.011002 0.028336" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/lg2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="lg1_1">
+  <inertial>
+    <origin xyz="0.010863554983694852 -0.01100002935398708 -0.008825378795461247" rpy="0 0 0"/>
+    <mass value="0.018393119454587818"/>
+    <inertia ixx="4e-05" iyy="2e-06" izz="4e-05" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.05025 -0.011002 0.028336" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/lg1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.05025 -0.011002 0.028336" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/lg1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="arms2_1">
+  <inertial>
+    <origin xyz="-6.987478790021484e-10 -2.0335279449137514e-07 -0.0006192350223843054" rpy="0 0 0"/>
+    <mass value="0.00013484972306268252"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0324 -2e-06 0.026336" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/arms2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0324 -2e-06 0.026336" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/arms2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="arm1_1">
+  <inertial>
+    <origin xyz="0.0077358645160271085 3.781338286841838e-07 -0.004469821111105759" rpy="0 0 0"/>
+    <mass value="0.0033639279259273197"/>
+    <inertia ixx="5e-06" iyy="0.0" izz="5e-06" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.032396 -0.0 0.022348" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/arm1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.032396 -0.0 0.022348" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/arm1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="dcs4_1">
+  <inertial>
+    <origin xyz="-8.136506913690444e-06 3.7805037275684406e-07 -0.011830716548123694" rpy="0 0 0"/>
+    <mass value="0.001606060704331477"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.019901 -0.05 0.029672" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/dcs4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.019901 -0.05 0.029672" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/dcs4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="dcs3_1">
+  <inertial>
+    <origin xyz="3.721761752950581e-10 -2.0335764330803308e-07 -0.01183095596510016" rpy="0 0 0"/>
+    <mass value="0.0016060607043313772"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0199 -0.050002 0.029651" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/dcs3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0199 -0.050002 0.029651" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/dcs3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="dcs1_1">
+  <inertial>
+    <origin xyz="-8.136479809912889e-06 3.7805037252786056e-07 -0.011830716528150018" rpy="0 0 0"/>
+    <mass value="0.0016060607043313735"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.019901 0.05 0.029672" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/dcs1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.019901 0.05 0.029672" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/dcs1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="dcs2_1">
+  <inertial>
+    <origin xyz="3.721772577625071e-10 -2.033576429263939e-07 -0.011830955945094524" rpy="0 0 0"/>
+    <mass value="0.0016060607043313824"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0199 0.049998 0.029651" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/dcs2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0199 0.049998 0.029651" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/dcs2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="wheel1_1">
+  <inertial>
+    <origin xyz="-4.434833511847425e-06 4.3150100635658273e-07 -0.006601755201532562" rpy="0 0 0"/>
+    <mass value="0.010699170309384429"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="2e-06" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.019909 0.05 0.041072" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/wheel1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.019909 0.05 0.041072" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/wheel1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="wheel2_1">
+  <inertial>
+    <origin xyz="5.4252401310989073e-08 -1.74979055300728e-07 -0.006601992612540859" rpy="0 0 0"/>
+    <mass value="0.010698957938474779"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="2e-06" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0199 0.049998 0.041051" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/wheel2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0199 0.049998 0.041051" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/wheel2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="wheel3_1">
+  <inertial>
+    <origin xyz="5.419156334784958e-08 -1.7427608577091913e-07 -0.006601993885607442" rpy="0 0 0"/>
+    <mass value="0.01069898220833226"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="2e-06" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0199 -0.050002 0.041051" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/wheel3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0199 -0.050002 0.041051" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/wheel3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="wheel4_1">
+  <inertial>
+    <origin xyz="-4.434873545480084e-06 4.315007573266194e-07 -0.0066017552214985495" rpy="0 0 0"/>
+    <mass value="0.010699170309386533"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="2e-06" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.019909 -0.05 0.041072" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/wheel4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.019909 -0.05 0.041072" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://FAMBot_description/meshes/wheel4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Rev1" type="continuous">
+  <origin xyz="0.0 0.0 0.018" rpy="0 0 0"/>
+  <parent link="bldcm1_1"/>
+  <child link="bldcs1_1"/>
+  <axis xyz="-0.0 0.0 1.0"/>
+</joint>
+
+<joint name="Rigid2" type="fixed">
+  <origin xyz="0.0 0.0 0.01025" rpy="0 0 0"/>
+  <parent link="bldcs1_1"/>
+  <child link="rotar1_1"/>
+</joint>
+
+<joint name="Rigid3" type="fixed">
+  <origin xyz="-0.17 -0.137 -0.0155" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="bldcm1_1"/>
+</joint>
+
+<joint name="Rev4" type="continuous">
+  <origin xyz="0.0 0.0 0.018" rpy="0 0 0"/>
+  <parent link="bldcm2_1"/>
+  <child link="bldcs2_1"/>
+  <axis xyz="0.0 0.0 -1.0"/>
+</joint>
+
+<joint name="Rigid5" type="fixed">
+  <origin xyz="0.0 0.0 0.01025" rpy="0 0 0"/>
+  <parent link="bldcs2_1"/>
+  <child link="rotar2_1"/>
+</joint>
+
+<joint name="Rigid6" type="fixed">
+  <origin xyz="0.17 -0.137 -0.0155" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="bldcm2_1"/>
+</joint>
+
+<joint name="Rev7" type="continuous">
+  <origin xyz="0.0 0.0 0.018" rpy="0 0 0"/>
+  <parent link="bldcm3_1"/>
+  <child link="bldcs3_1"/>
+  <axis xyz="-0.0 0.0 1.0"/>
+</joint>
+
+<joint name="Rigid8" type="fixed">
+  <origin xyz="0.0 0.0 0.01025" rpy="0 0 0"/>
+  <parent link="bldcs3_1"/>
+  <child link="rotar3_1"/>
+</joint>
+
+<joint name="Rigid9" type="fixed">
+  <origin xyz="0.17 0.137 -0.0155" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="bldcm3_1"/>
+</joint>
+
+<joint name="Rev10" type="continuous">
+  <origin xyz="0.0 0.0 0.018" rpy="0 0 0"/>
+  <parent link="bldcm4_1"/>
+  <child link="bldcs4_1"/>
+  <axis xyz="-0.0 0.0 -1.0"/>
+</joint>
+
+<joint name="Rigid11" type="fixed">
+  <origin xyz="0.0 0.0 0.01025" rpy="0 0 0"/>
+  <parent link="bldcs4_1"/>
+  <child link="rotar4_1"/>
+</joint>
+
+<joint name="Rigid12" type="fixed">
+  <origin xyz="-0.17 0.137 -0.0155" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="bldcm4_1"/>
+</joint>
+

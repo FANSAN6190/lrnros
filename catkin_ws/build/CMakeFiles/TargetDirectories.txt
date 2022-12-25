@@ -57,6 +57,13 @@
 /home/fansan/Desktop/lrnros/catkin_ws/build/gazebo_ros_demos/rrbot_gazebo/CMakeFiles/rebuild_cache.dir
 /home/fansan/Desktop/lrnros/catkin_ws/build/gazebo_ros_demos/rrbot_gazebo/CMakeFiles/edit_cache.dir
 /home/fansan/Desktop/lrnros/catkin_ws/build/gazebo_ros_demos/rrbot_gazebo/CMakeFiles/test.dir
+/home/fansan/Desktop/lrnros/catkin_ws/build/fambot_description/CMakeFiles/install/strip.dir
+/home/fansan/Desktop/lrnros/catkin_ws/build/fambot_description/CMakeFiles/install/local.dir
+/home/fansan/Desktop/lrnros/catkin_ws/build/fambot_description/CMakeFiles/install.dir
+/home/fansan/Desktop/lrnros/catkin_ws/build/fambot_description/CMakeFiles/list_install_components.dir
+/home/fansan/Desktop/lrnros/catkin_ws/build/fambot_description/CMakeFiles/rebuild_cache.dir
+/home/fansan/Desktop/lrnros/catkin_ws/build/fambot_description/CMakeFiles/edit_cache.dir
+/home/fansan/Desktop/lrnros/catkin_ws/build/fambot_description/CMakeFiles/test.dir
 /home/fansan/Desktop/lrnros/catkin_ws/build/beginner_tutorials/CMakeFiles/install/strip.dir
 /home/fansan/Desktop/lrnros/catkin_ws/build/beginner_tutorials/CMakeFiles/install.dir
 /home/fansan/Desktop/lrnros/catkin_ws/build/beginner_tutorials/CMakeFiles/list_install_components.dir
