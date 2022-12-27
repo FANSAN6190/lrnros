@@ -1,0 +1,8 @@
+prefix=/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/devel
+
+Name: ROS_ESSENTIALS_CPP
+Description: Description of ROS_ESSENTIALS_CPP
+Version: 0.0.0
+Cflags: -I/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/devel/include -I/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/src/ROS_ESSENTIALS_CPP/include
+Libs: -L${prefix}/lib -lROS_ESSENTIALS_CPP
+Requires: roscpp rospy std_msgs message_runtime

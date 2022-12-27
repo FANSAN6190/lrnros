@@ -1,0 +1,2 @@
+ROS_ESSENTIALS_CPP:ros_basics_tutorials
+-DCATKIN_DEVEL_PREFIX=/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/install -G Unix Makefiles

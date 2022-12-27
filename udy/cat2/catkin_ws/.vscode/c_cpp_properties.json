@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/noetic/include/**",
+        "/home/fansan/Desktop/lrnros/udy/cat1/catkin_ws/devel/include/**",
+        "/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/src/ros_basics_tutorials/include/**",
+        "/home/fansan/Desktop/lrnros/udy/cat1/catkin_ws/src/ros_essentials_cpp/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
