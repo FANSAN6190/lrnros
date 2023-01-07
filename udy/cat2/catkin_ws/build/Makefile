@@ -674,6 +674,162 @@ talker_node/fast:
 	$(MAKE) -f ros_basics_tutorials/CMakeFiles/talker_node.dir/build.make ros_basics_tutorials/CMakeFiles/talker_node.dir/build
 .PHONY : talker_node/fast
 
+#=============================================================================
+# Target rules for targets named ros_service_assignment_generate_messages
+
+# Build rule for target.
+ros_service_assignment_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ros_service_assignment_generate_messages
+.PHONY : ros_service_assignment_generate_messages
+
+# fast build rule for target.
+ros_service_assignment_generate_messages/fast:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages.dir/build
+.PHONY : ros_service_assignment_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named ros_service_assignment_gencpp
+
+# Build rule for target.
+ros_service_assignment_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ros_service_assignment_gencpp
+.PHONY : ros_service_assignment_gencpp
+
+# fast build rule for target.
+ros_service_assignment_gencpp/fast:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_gencpp.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_gencpp.dir/build
+.PHONY : ros_service_assignment_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named _ros_service_assignment_generate_messages_check_deps_RectangleAreaService
+
+# Build rule for target.
+_ros_service_assignment_generate_messages_check_deps_RectangleAreaService: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _ros_service_assignment_generate_messages_check_deps_RectangleAreaService
+.PHONY : _ros_service_assignment_generate_messages_check_deps_RectangleAreaService
+
+# fast build rule for target.
+_ros_service_assignment_generate_messages_check_deps_RectangleAreaService/fast:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/_ros_service_assignment_generate_messages_check_deps_RectangleAreaService.dir/build.make ros_service_assignment/CMakeFiles/_ros_service_assignment_generate_messages_check_deps_RectangleAreaService.dir/build
+.PHONY : _ros_service_assignment_generate_messages_check_deps_RectangleAreaService/fast
+
+#=============================================================================
+# Target rules for targets named ros_service_assignment_generate_messages_cpp
+
+# Build rule for target.
+ros_service_assignment_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ros_service_assignment_generate_messages_cpp
+.PHONY : ros_service_assignment_generate_messages_cpp
+
+# fast build rule for target.
+ros_service_assignment_generate_messages_cpp/fast:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_cpp.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_cpp.dir/build
+.PHONY : ros_service_assignment_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named ros_service_assignment_genlisp
+
+# Build rule for target.
+ros_service_assignment_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ros_service_assignment_genlisp
+.PHONY : ros_service_assignment_genlisp
+
+# fast build rule for target.
+ros_service_assignment_genlisp/fast:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_genlisp.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_genlisp.dir/build
+.PHONY : ros_service_assignment_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named ros_service_assignment_gennodejs
+
+# Build rule for target.
+ros_service_assignment_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ros_service_assignment_gennodejs
+.PHONY : ros_service_assignment_gennodejs
+
+# fast build rule for target.
+ros_service_assignment_gennodejs/fast:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_gennodejs.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_gennodejs.dir/build
+.PHONY : ros_service_assignment_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named ros_service_assignment_generate_messages_eus
+
+# Build rule for target.
+ros_service_assignment_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ros_service_assignment_generate_messages_eus
+.PHONY : ros_service_assignment_generate_messages_eus
+
+# fast build rule for target.
+ros_service_assignment_generate_messages_eus/fast:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_eus.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_eus.dir/build
+.PHONY : ros_service_assignment_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named ros_service_assignment_generate_messages_lisp
+
+# Build rule for target.
+ros_service_assignment_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ros_service_assignment_generate_messages_lisp
+.PHONY : ros_service_assignment_generate_messages_lisp
+
+# fast build rule for target.
+ros_service_assignment_generate_messages_lisp/fast:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_lisp.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_lisp.dir/build
+.PHONY : ros_service_assignment_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named ros_service_assignment_generate_messages_nodejs
+
+# Build rule for target.
+ros_service_assignment_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ros_service_assignment_generate_messages_nodejs
+.PHONY : ros_service_assignment_generate_messages_nodejs
+
+# fast build rule for target.
+ros_service_assignment_generate_messages_nodejs/fast:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_nodejs.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_nodejs.dir/build
+.PHONY : ros_service_assignment_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named ros_service_assignment_generate_messages_py
+
+# Build rule for target.
+ros_service_assignment_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ros_service_assignment_generate_messages_py
+.PHONY : ros_service_assignment_generate_messages_py
+
+# fast build rule for target.
+ros_service_assignment_generate_messages_py/fast:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_py.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_py.dir/build
+.PHONY : ros_service_assignment_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named ros_service_assignment_geneus
+
+# Build rule for target.
+ros_service_assignment_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ros_service_assignment_geneus
+.PHONY : ros_service_assignment_geneus
+
+# fast build rule for target.
+ros_service_assignment_geneus/fast:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_geneus.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_geneus.dir/build
+.PHONY : ros_service_assignment_geneus/fast
+
+#=============================================================================
+# Target rules for targets named ros_service_assignment_genpy
+
+# Build rule for target.
+ros_service_assignment_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ros_service_assignment_genpy
+.PHONY : ros_service_assignment_genpy
+
+# fast build rule for target.
+ros_service_assignment_genpy/fast:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_genpy.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_genpy.dir/build
+.PHONY : ros_service_assignment_genpy/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -726,6 +882,18 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... listener_node"
 	@echo "... talker_node"
+	@echo "... ros_service_assignment_generate_messages"
+	@echo "... ros_service_assignment_gencpp"
+	@echo "... _ros_service_assignment_generate_messages_check_deps_RectangleAreaService"
+	@echo "... ros_service_assignment_generate_messages_cpp"
+	@echo "... ros_service_assignment_genlisp"
+	@echo "... ros_service_assignment_gennodejs"
+	@echo "... ros_service_assignment_generate_messages_eus"
+	@echo "... ros_service_assignment_generate_messages_lisp"
+	@echo "... ros_service_assignment_generate_messages_nodejs"
+	@echo "... ros_service_assignment_generate_messages_py"
+	@echo "... ros_service_assignment_geneus"
+	@echo "... ros_service_assignment_genpy"
 .PHONY : help
 
 

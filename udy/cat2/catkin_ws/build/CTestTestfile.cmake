@@ -7,3 +7,6 @@
 subdirs("gtest")
 subdirs("ROS_ESSENTIALS_CPP")
 subdirs("ros_basics_tutorials")
+subdirs("ros_motion")
+subdirs("ros_service_assignment")
+subdirs("turtle_text")

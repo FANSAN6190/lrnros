@@ -2,7 +2,7 @@
 import rospy
 from geometry_msgs.msg import Twist
 from turtlesim.msg import Pose
-import math
+import math 
 import time
 from std_srvs.srv import Empty
 x=y=z=yaw=0
@@ -46,8 +46,7 @@ if __name__ == '__main__':
         rospy.init_node('turtlesim_motion_pose',anonymous=True)
         ##declare velocity publisher
         velocity_publisher=rospy.Publisher("turtle1/cmd_vel",Twist,queue_size=10)
-        position_topic="/turtle1/pose"
-        pose_subscriber=rospy.Subscriber(position_topic,Pose,poseCall)
+        pose_subscriber=rospy.Subscriber("/turtle1/pose",Pose,poseCall)
         time.sleep(2)
         print('move: ')
         move (2.0, 20,90)

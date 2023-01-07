@@ -1,0 +1,8 @@
+prefix=/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/install
+
+Name: ros_motion
+Description: Description of ros_motion
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lros_motion
+Requires: roscpp rospy std_msgs message_runtime

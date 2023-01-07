@@ -67,7 +67,11 @@ set(FAMBot_description_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
+<<<<<<< HEAD
   set(FAMBot_description_SOURCE_PREFIX /home/fansan/Desktop/lrnros/catkin_ws/src/FAMBot_description)
+=======
+  set(FAMBot_description_SOURCE_PREFIX /home/fansan/Desktop/lrnros/catkin_ws/src/fambot_description)
+>>>>>>> ade3c01762e46184a054f6a30233f1030b8ab109
   set(FAMBot_description_DEVEL_PREFIX /home/fansan/Desktop/lrnros/catkin_ws/devel)
   set(FAMBot_description_INSTALL_PREFIX "")
   set(FAMBot_description_PREFIX ${FAMBot_description_DEVEL_PREFIX})
@@ -154,7 +158,11 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
+<<<<<<< HEAD
     foreach(path /home/fansan/Desktop/lrnros/catkin_ws/install/lib;/opt/ros/noetic/lib)
+=======
+    foreach(path /home/fansan/Desktop/lrnros/catkin_ws/install/lib;/home/fansan/Desktop/lrnros/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+>>>>>>> ade3c01762e46184a054f6a30233f1030b8ab109
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

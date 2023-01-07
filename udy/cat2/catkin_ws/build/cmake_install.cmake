@@ -133,6 +133,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/ROS_ESSENTIALS_CPP/cmake_install.cmake")
   include("/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/ros_basics_tutorials/cmake_install.cmake")
+  include("/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/ros_motion/cmake_install.cmake")
+  include("/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/ros_service_assignment/cmake_install.cmake")
+  include("/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/turtle_text/cmake_install.cmake")
 
 endif()
 

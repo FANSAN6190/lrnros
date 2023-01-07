@@ -137,14 +137,23 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/fansan/Desktop/lrnros/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/catkin_ws/build/CMakeFiles /home/fansan/Desktop/lrnros/catkin_ws/build/FAMBot_description/CMakeFiles/progress.marks
 	cd /home/fansan/Desktop/lrnros/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 FAMBot_description/all
+=======
+	cd /home/fansan/Desktop/lrnros/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/catkin_ws/build/CMakeFiles /home/fansan/Desktop/lrnros/catkin_ws/build/fambot_description/CMakeFiles/progress.marks
+	cd /home/fansan/Desktop/lrnros/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 fambot_description/all
+>>>>>>> ade3c01762e46184a054f6a30233f1030b8ab109
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/fansan/Desktop/lrnros/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 FAMBot_description/clean
+=======
+	cd /home/fansan/Desktop/lrnros/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 fambot_description/clean
+>>>>>>> ade3c01762e46184a054f6a30233f1030b8ab109
 .PHONY : clean
 
 # The main clean target
@@ -154,12 +163,20 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/fansan/Desktop/lrnros/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 FAMBot_description/preinstall
+=======
+	cd /home/fansan/Desktop/lrnros/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 fambot_description/preinstall
+>>>>>>> ade3c01762e46184a054f6a30233f1030b8ab109
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/fansan/Desktop/lrnros/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 FAMBot_description/preinstall
+=======
+	cd /home/fansan/Desktop/lrnros/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 fambot_description/preinstall
+>>>>>>> ade3c01762e46184a054f6a30233f1030b8ab109
 .PHONY : preinstall/fast
 
 # clear depends

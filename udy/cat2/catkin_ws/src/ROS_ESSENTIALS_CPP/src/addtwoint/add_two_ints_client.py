@@ -13,7 +13,7 @@ def add_two_ints_client(x,y):
         return respl.sum
     except rospy.ServiceException(e):
         print ("Service call failed : %s"%e)
-
+ 
 def usage():
     return
 if __name__=="__main__":

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!/home/fansan/anaconda3/bin/python3
+=======
+#!/usr/bin/python3
+>>>>>>> ade3c01762e46184a054f6a30233f1030b8ab109
 # -*- coding: utf-8 -*-
 
 # Software License Agreement (BSD License)

@@ -56,6 +56,9 @@ CMAKE_BINARY_DIR = /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build
 all: gtest/all
 all: ROS_ESSENTIALS_CPP/all
 all: ros_basics_tutorials/all
+all: ros_motion/all
+all: ros_service_assignment/all
+all: turtle_text/all
 
 .PHONY : all
 
@@ -63,6 +66,9 @@ all: ros_basics_tutorials/all
 preinstall: gtest/preinstall
 preinstall: ROS_ESSENTIALS_CPP/preinstall
 preinstall: ros_basics_tutorials/preinstall
+preinstall: ros_motion/preinstall
+preinstall: ros_service_assignment/preinstall
+preinstall: turtle_text/preinstall
 
 .PHONY : preinstall
 
@@ -75,6 +81,9 @@ clean: CMakeFiles/download_extra_data.dir/clean
 clean: gtest/clean
 clean: ROS_ESSENTIALS_CPP/clean
 clean: ros_basics_tutorials/clean
+clean: ros_motion/clean
+clean: ros_service_assignment/clean
+clean: turtle_text/clean
 
 .PHONY : clean
 
@@ -199,6 +208,71 @@ ros_basics_tutorials/clean: ros_basics_tutorials/CMakeFiles/listener_node.dir/cl
 ros_basics_tutorials/clean: ros_basics_tutorials/CMakeFiles/talker_node.dir/clean
 
 .PHONY : ros_basics_tutorials/clean
+
+#=============================================================================
+# Directory level rules for directory ros_motion
+
+# Recursive "all" directory target.
+ros_motion/all:
+
+.PHONY : ros_motion/all
+
+# Recursive "preinstall" directory target.
+ros_motion/preinstall:
+
+.PHONY : ros_motion/preinstall
+
+# Recursive "clean" directory target.
+ros_motion/clean:
+
+.PHONY : ros_motion/clean
+
+#=============================================================================
+# Directory level rules for directory ros_service_assignment
+
+# Recursive "all" directory target.
+ros_service_assignment/all: ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages.dir/all
+
+.PHONY : ros_service_assignment/all
+
+# Recursive "preinstall" directory target.
+ros_service_assignment/preinstall:
+
+.PHONY : ros_service_assignment/preinstall
+
+# Recursive "clean" directory target.
+ros_service_assignment/clean: ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages.dir/clean
+ros_service_assignment/clean: ros_service_assignment/CMakeFiles/ros_service_assignment_gencpp.dir/clean
+ros_service_assignment/clean: ros_service_assignment/CMakeFiles/_ros_service_assignment_generate_messages_check_deps_RectangleAreaService.dir/clean
+ros_service_assignment/clean: ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_cpp.dir/clean
+ros_service_assignment/clean: ros_service_assignment/CMakeFiles/ros_service_assignment_genlisp.dir/clean
+ros_service_assignment/clean: ros_service_assignment/CMakeFiles/ros_service_assignment_gennodejs.dir/clean
+ros_service_assignment/clean: ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_eus.dir/clean
+ros_service_assignment/clean: ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_lisp.dir/clean
+ros_service_assignment/clean: ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_nodejs.dir/clean
+ros_service_assignment/clean: ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_py.dir/clean
+ros_service_assignment/clean: ros_service_assignment/CMakeFiles/ros_service_assignment_geneus.dir/clean
+ros_service_assignment/clean: ros_service_assignment/CMakeFiles/ros_service_assignment_genpy.dir/clean
+
+.PHONY : ros_service_assignment/clean
+
+#=============================================================================
+# Directory level rules for directory turtle_text
+
+# Recursive "all" directory target.
+turtle_text/all:
+
+.PHONY : turtle_text/all
+
+# Recursive "preinstall" directory target.
+turtle_text/preinstall:
+
+.PHONY : turtle_text/preinstall
+
+# Recursive "clean" directory target.
+turtle_text/clean:
+
+.PHONY : turtle_text/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/doxygen.dir
@@ -339,8 +413,8 @@ CMakeFiles/download_extra_data.dir/clean:
 # Target rules for target gtest/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmock.dir/all
+gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles --progress-num=16,17 "Built target gmock_main"
@@ -1248,7 +1322,7 @@ ros_basics_tutorials/CMakeFiles/listener_node.dir/clean:
 ros_basics_tutorials/CMakeFiles/talker_node.dir/all:
 	$(MAKE) -f ros_basics_tutorials/CMakeFiles/talker_node.dir/build.make ros_basics_tutorials/CMakeFiles/talker_node.dir/depend
 	$(MAKE) -f ros_basics_tutorials/CMakeFiles/talker_node.dir/build.make ros_basics_tutorials/CMakeFiles/talker_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles --progress-num=24,25 "Built target talker_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles --progress-num=31,32 "Built target talker_node"
 .PHONY : ros_basics_tutorials/CMakeFiles/talker_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1267,6 +1341,339 @@ talker_node: ros_basics_tutorials/CMakeFiles/talker_node.dir/rule
 ros_basics_tutorials/CMakeFiles/talker_node.dir/clean:
 	$(MAKE) -f ros_basics_tutorials/CMakeFiles/talker_node.dir/build.make ros_basics_tutorials/CMakeFiles/talker_node.dir/clean
 .PHONY : ros_basics_tutorials/CMakeFiles/talker_node.dir/clean
+
+#=============================================================================
+# Target rules for target ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages.dir
+
+# All Build rule for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages.dir/all: ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_cpp.dir/all
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages.dir/all: ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_eus.dir/all
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages.dir/all: ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_lisp.dir/all
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages.dir/all: ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_nodejs.dir/all
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages.dir/all: ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_py.dir/all
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages.dir/depend
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles --progress-num= "Built target ros_service_assignment_generate_messages"
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages.dir/all
+
+# Build rule for subdir invocation for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 7
+	$(MAKE) -f CMakeFiles/Makefile2 ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 0
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages.dir/rule
+
+# Convenience name for target.
+ros_service_assignment_generate_messages: ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages.dir/rule
+
+.PHONY : ros_service_assignment_generate_messages
+
+# clean rule for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages.dir/clean:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages.dir/clean
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages.dir/clean
+
+#=============================================================================
+# Target rules for target ros_service_assignment/CMakeFiles/ros_service_assignment_gencpp.dir
+
+# All Build rule for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_gencpp.dir/all: ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_cpp.dir/all
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_gencpp.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_gencpp.dir/depend
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_gencpp.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_gencpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles --progress-num= "Built target ros_service_assignment_gencpp"
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_gencpp.dir/all
+
+# Build rule for subdir invocation for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_gencpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 ros_service_assignment/CMakeFiles/ros_service_assignment_gencpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 0
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_gencpp.dir/rule
+
+# Convenience name for target.
+ros_service_assignment_gencpp: ros_service_assignment/CMakeFiles/ros_service_assignment_gencpp.dir/rule
+
+.PHONY : ros_service_assignment_gencpp
+
+# clean rule for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_gencpp.dir/clean:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_gencpp.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_gencpp.dir/clean
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_gencpp.dir/clean
+
+#=============================================================================
+# Target rules for target ros_service_assignment/CMakeFiles/_ros_service_assignment_generate_messages_check_deps_RectangleAreaService.dir
+
+# All Build rule for target.
+ros_service_assignment/CMakeFiles/_ros_service_assignment_generate_messages_check_deps_RectangleAreaService.dir/all:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/_ros_service_assignment_generate_messages_check_deps_RectangleAreaService.dir/build.make ros_service_assignment/CMakeFiles/_ros_service_assignment_generate_messages_check_deps_RectangleAreaService.dir/depend
+	$(MAKE) -f ros_service_assignment/CMakeFiles/_ros_service_assignment_generate_messages_check_deps_RectangleAreaService.dir/build.make ros_service_assignment/CMakeFiles/_ros_service_assignment_generate_messages_check_deps_RectangleAreaService.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles --progress-num= "Built target _ros_service_assignment_generate_messages_check_deps_RectangleAreaService"
+.PHONY : ros_service_assignment/CMakeFiles/_ros_service_assignment_generate_messages_check_deps_RectangleAreaService.dir/all
+
+# Build rule for subdir invocation for target.
+ros_service_assignment/CMakeFiles/_ros_service_assignment_generate_messages_check_deps_RectangleAreaService.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 ros_service_assignment/CMakeFiles/_ros_service_assignment_generate_messages_check_deps_RectangleAreaService.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 0
+.PHONY : ros_service_assignment/CMakeFiles/_ros_service_assignment_generate_messages_check_deps_RectangleAreaService.dir/rule
+
+# Convenience name for target.
+_ros_service_assignment_generate_messages_check_deps_RectangleAreaService: ros_service_assignment/CMakeFiles/_ros_service_assignment_generate_messages_check_deps_RectangleAreaService.dir/rule
+
+.PHONY : _ros_service_assignment_generate_messages_check_deps_RectangleAreaService
+
+# clean rule for target.
+ros_service_assignment/CMakeFiles/_ros_service_assignment_generate_messages_check_deps_RectangleAreaService.dir/clean:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/_ros_service_assignment_generate_messages_check_deps_RectangleAreaService.dir/build.make ros_service_assignment/CMakeFiles/_ros_service_assignment_generate_messages_check_deps_RectangleAreaService.dir/clean
+.PHONY : ros_service_assignment/CMakeFiles/_ros_service_assignment_generate_messages_check_deps_RectangleAreaService.dir/clean
+
+#=============================================================================
+# Target rules for target ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_cpp.dir
+
+# All Build rule for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_cpp.dir/all: ROS_ESSENTIALS_CPP/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_cpp.dir/all: ros_service_assignment/CMakeFiles/_ros_service_assignment_generate_messages_check_deps_RectangleAreaService.dir/all
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_cpp.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_cpp.dir/depend
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_cpp.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles --progress-num=24 "Built target ros_service_assignment_generate_messages_cpp"
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 0
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+ros_service_assignment_generate_messages_cpp: ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_cpp.dir/rule
+
+.PHONY : ros_service_assignment_generate_messages_cpp
+
+# clean rule for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_cpp.dir/clean:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_cpp.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_cpp.dir/clean
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target ros_service_assignment/CMakeFiles/ros_service_assignment_genlisp.dir
+
+# All Build rule for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_genlisp.dir/all: ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_lisp.dir/all
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_genlisp.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_genlisp.dir/depend
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_genlisp.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_genlisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles --progress-num= "Built target ros_service_assignment_genlisp"
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_genlisp.dir/all
+
+# Build rule for subdir invocation for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_genlisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 ros_service_assignment/CMakeFiles/ros_service_assignment_genlisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 0
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_genlisp.dir/rule
+
+# Convenience name for target.
+ros_service_assignment_genlisp: ros_service_assignment/CMakeFiles/ros_service_assignment_genlisp.dir/rule
+
+.PHONY : ros_service_assignment_genlisp
+
+# clean rule for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_genlisp.dir/clean:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_genlisp.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_genlisp.dir/clean
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_genlisp.dir/clean
+
+#=============================================================================
+# Target rules for target ros_service_assignment/CMakeFiles/ros_service_assignment_gennodejs.dir
+
+# All Build rule for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_gennodejs.dir/all: ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_nodejs.dir/all
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_gennodejs.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_gennodejs.dir/depend
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_gennodejs.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_gennodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles --progress-num= "Built target ros_service_assignment_gennodejs"
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_gennodejs.dir/all
+
+# Build rule for subdir invocation for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_gennodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 ros_service_assignment/CMakeFiles/ros_service_assignment_gennodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 0
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_gennodejs.dir/rule
+
+# Convenience name for target.
+ros_service_assignment_gennodejs: ros_service_assignment/CMakeFiles/ros_service_assignment_gennodejs.dir/rule
+
+.PHONY : ros_service_assignment_gennodejs
+
+# clean rule for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_gennodejs.dir/clean:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_gennodejs.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_gennodejs.dir/clean
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_gennodejs.dir/clean
+
+#=============================================================================
+# Target rules for target ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_eus.dir
+
+# All Build rule for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_eus.dir/all: ROS_ESSENTIALS_CPP/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_eus.dir/all: ros_service_assignment/CMakeFiles/_ros_service_assignment_generate_messages_check_deps_RectangleAreaService.dir/all
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_eus.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_eus.dir/depend
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_eus.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles --progress-num=25,26 "Built target ros_service_assignment_generate_messages_eus"
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 0
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+ros_service_assignment_generate_messages_eus: ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_eus.dir/rule
+
+.PHONY : ros_service_assignment_generate_messages_eus
+
+# clean rule for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_eus.dir/clean:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_eus.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_eus.dir/clean
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_eus.dir/clean
+
+#=============================================================================
+# Target rules for target ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_lisp.dir
+
+# All Build rule for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_lisp.dir/all: ROS_ESSENTIALS_CPP/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_lisp.dir/all: ros_service_assignment/CMakeFiles/_ros_service_assignment_generate_messages_check_deps_RectangleAreaService.dir/all
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_lisp.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_lisp.dir/depend
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_lisp.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles --progress-num=27 "Built target ros_service_assignment_generate_messages_lisp"
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 0
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+ros_service_assignment_generate_messages_lisp: ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_lisp.dir/rule
+
+.PHONY : ros_service_assignment_generate_messages_lisp
+
+# clean rule for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_lisp.dir/clean:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_lisp.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_lisp.dir/clean
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_lisp.dir/clean
+
+#=============================================================================
+# Target rules for target ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_nodejs.dir
+
+# All Build rule for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_nodejs.dir/all: ROS_ESSENTIALS_CPP/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_nodejs.dir/all: ros_service_assignment/CMakeFiles/_ros_service_assignment_generate_messages_check_deps_RectangleAreaService.dir/all
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_nodejs.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_nodejs.dir/depend
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_nodejs.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles --progress-num=28 "Built target ros_service_assignment_generate_messages_nodejs"
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 0
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+ros_service_assignment_generate_messages_nodejs: ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_nodejs.dir/rule
+
+.PHONY : ros_service_assignment_generate_messages_nodejs
+
+# clean rule for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_nodejs.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_nodejs.dir/clean
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_nodejs.dir/clean
+
+#=============================================================================
+# Target rules for target ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_py.dir
+
+# All Build rule for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_py.dir/all: ROS_ESSENTIALS_CPP/CMakeFiles/std_msgs_generate_messages_py.dir/all
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_py.dir/all: ros_service_assignment/CMakeFiles/_ros_service_assignment_generate_messages_check_deps_RectangleAreaService.dir/all
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_py.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_py.dir/depend
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_py.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles --progress-num=29,30 "Built target ros_service_assignment_generate_messages_py"
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 0
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_py.dir/rule
+
+# Convenience name for target.
+ros_service_assignment_generate_messages_py: ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_py.dir/rule
+
+.PHONY : ros_service_assignment_generate_messages_py
+
+# clean rule for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_py.dir/clean:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_py.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_py.dir/clean
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_py.dir/clean
+
+#=============================================================================
+# Target rules for target ros_service_assignment/CMakeFiles/ros_service_assignment_geneus.dir
+
+# All Build rule for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_geneus.dir/all: ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_eus.dir/all
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_geneus.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_geneus.dir/depend
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_geneus.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_geneus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles --progress-num= "Built target ros_service_assignment_geneus"
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_geneus.dir/all
+
+# Build rule for subdir invocation for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_geneus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 ros_service_assignment/CMakeFiles/ros_service_assignment_geneus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 0
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_geneus.dir/rule
+
+# Convenience name for target.
+ros_service_assignment_geneus: ros_service_assignment/CMakeFiles/ros_service_assignment_geneus.dir/rule
+
+.PHONY : ros_service_assignment_geneus
+
+# clean rule for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_geneus.dir/clean:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_geneus.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_geneus.dir/clean
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_geneus.dir/clean
+
+#=============================================================================
+# Target rules for target ros_service_assignment/CMakeFiles/ros_service_assignment_genpy.dir
+
+# All Build rule for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_genpy.dir/all: ros_service_assignment/CMakeFiles/ros_service_assignment_generate_messages_py.dir/all
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_genpy.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_genpy.dir/depend
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_genpy.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_genpy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles --progress-num= "Built target ros_service_assignment_genpy"
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_genpy.dir/all
+
+# Build rule for subdir invocation for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_genpy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 ros_service_assignment/CMakeFiles/ros_service_assignment_genpy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fansan/Desktop/lrnros/udy/cat2/catkin_ws/build/CMakeFiles 0
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_genpy.dir/rule
+
+# Convenience name for target.
+ros_service_assignment_genpy: ros_service_assignment/CMakeFiles/ros_service_assignment_genpy.dir/rule
+
+.PHONY : ros_service_assignment_genpy
+
+# clean rule for target.
+ros_service_assignment/CMakeFiles/ros_service_assignment_genpy.dir/clean:
+	$(MAKE) -f ros_service_assignment/CMakeFiles/ros_service_assignment_genpy.dir/build.make ros_service_assignment/CMakeFiles/ros_service_assignment_genpy.dir/clean
+.PHONY : ros_service_assignment/CMakeFiles/ros_service_assignment_genpy.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
